@@ -1,0 +1,20 @@
+{
+  "chinese_han": {
+    "name": "Chinese (Han)",
+    "objects": {
+      "yinghuo": {
+        "name": "Yinghuo (Fire Star)",
+        "modern_id": "mars"
+      }
+    }
+  },
+  "mayan": {
+    "name": "Mayan",
+    "objects": {
+      "chak_ek": {
+        "name": "Chak Ek (Great Star)",
+        "modern_id": "venus"
+      }
+    }
+  }
+}

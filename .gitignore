@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+venv/
+env/
+
+# Data Cache (don't push large binaries)
+data/de421.bsp
+data/*.bsp
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
