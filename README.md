@@ -1,12 +1,12 @@
-# Sky Culture Lite: Archaeoastronomy Computation Engine
+# Sky Culture MCP: Archaeoastronomy Computation Engine
 
-## The Philosophy: Changing the Lens, Not the Telescope
+## Changing the Lens, Not the Telescope
 
 In my previous work translating the *Surya Siddhanta*, I spent months manually calculating planetary positions to verify ancient Sanskrit verses against modern ephemerides. It was a tedious, repetitive process of building bespoke simulations for a single cultural context.
 
 When I moved on to Mayan and Chinese astronomy for my **Final Year Project**, I realized I was making the same mistake: I was building a new "telescope" (simulation engine) for every culture.
 
-**Sky Culture Lite** was developed as the solution. It serves as the **core computational module** for the broader project, representing a shift in architecture. Instead of rebuilding the telescope, I simply changed the lens.
+**Sky Culture MCP* was developed as the solution. It serves as the **core computational module** for the broader project, representing a shift in architecture. Instead of rebuilding the telescope, I simply changed the lens.
 
 This modular "Interchangeable Lens" allows AI Agents to abstract the complexity of orbital mechanics. Whether the input is a Mayan Long Count date or a Han Dynasty star name, this microservice handles the physics, allowing the Agent to focus on the cultural interpretation.
 
@@ -40,14 +40,14 @@ To use this engine as a "Lens" for Claude, you must register it in your `claude_
         "run",
         "-i",
         "--rm",
-        "nishanthabimanyu/sky-culture-lite"
+        "yourname/sky-culture-lite"
       ]
     }
   }
 }
 ```
 
-*Note: Replace `nishanthabimanyu/sky-culture-lite` with your local image tag if you haven't pushed to Docker Hub yet (e.g., `sky-culture-lite`).*
+*Note: Replace `yourname/sky-culture-lite` with your local image tag if you haven't pushed to Docker Hub yet (e.g., `sky-culture-lite`).*
 
 ## Exposed Functions
 
